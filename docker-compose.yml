@@ -1,0 +1,12 @@
+version: "3"
+services:
+  miraiok:
+    image: lqbing/miraiok
+    restart: always
+    volumes:
+      - ./config.txt:/workdir/config.txt
+      - ./setting.yml:/workdir/plugins/CQHTTPMirai/setting.yml
+      - ./device.json:/workdir/device.json
+      - ./log:/workdir/log
+    stdin_open: true
+    tty: true

@@ -1,0 +1,4 @@
+# setting.yml
+# config.txt
+*.example
+log/*
