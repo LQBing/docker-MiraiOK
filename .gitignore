@@ -1,4 +1,8 @@
 setting.yml
 config.txt
 device.json
-log
+
+.idea
+.env
+/log/
+/tmp/
