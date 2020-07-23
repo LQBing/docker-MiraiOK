@@ -16,4 +16,5 @@ RUN set -eux; \
     chmod +x /workdir/miraiOK; \
     ./miraiOK; \
     chmod +x /workdir/jre/bin/java /workdir/entry.sh
+ADD device.json.example device.json
 ENTRYPOINT ./entry.sh
