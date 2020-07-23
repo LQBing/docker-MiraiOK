@@ -44,7 +44,7 @@ EOF
   fi
   # create setting.yml
   echo "creating setting.yml"
-  cat>setting.yml<<EOF
+  cat>/workdirplugins/CQHTTPMirai/setting.yml<<EOF
 "$QQ_ACCOUNT":
   ws_reverse:
     enable: true
